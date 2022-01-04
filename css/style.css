@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#page-wrapper {
+    position: relative;
+}
+#header-img {
+    width: 160px;
+}
+.ps5 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.card2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3vw;
+    font-weight: normal;
+    color: black;
+    padding: 15px;
+    opacity: 0.6;
+}
+.card2 > h1 {
+    color: var(--bs-blue);
+    font-weight: 400;
+}
+.top {    
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.6vw;
+    font-weight: normal;
+}
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7vw;
+}
+.img-fluid {
+    max-width: 70%;
+}
+.container {
+    max-width: 1000px;
+}
+nav > .container {
+    max-width: 1400px;
+}
+ul {
+    list-style: none;
+    list-style-type: none;
+    width: 100%;
+}
+header {
+    position: fixed;
+}
+.btn {
+    padding: 0;
+    font-size: 0.8rem;
+    line-height: 1;
+}
+input[type="submit"] {
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+    margin-left: 15px; 
+}
+input[type="submit"]:hover {
+    background-color: var(--bs-orange);
+}
+.nav-link {
+    color: var(--bs-white) !important;
+}
+#features {
+    background-color: var(--bs-gray-300)
+}
+#entertainment {
+    background-color: var(--bs-gray-200)
+}
+.ssd {
+    max-width: 10%;
+}
+.card-group {
+    background-color: var(--bs-gray-400)
+}
+#btn-access {
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+    border-radius: 5px;
+}
+#btn-access:hover {
+    background-color: var(--bs-green);
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+ 
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+.card {
+    border: 1px solid black;
+    box-shadow: 5px 30px 50px 5px black;
+}
