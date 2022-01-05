@@ -131,7 +131,7 @@ input[type="submit"]:hover {
     background: #125688;
     color: white;
   }
-.card {
+.card, iframe {
     border: 1px solid black;
     box-shadow: 5px 30px 50px 5px black;
 }
